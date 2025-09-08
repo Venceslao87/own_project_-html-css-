@@ -1,0 +1,56 @@
+body {
+    background-color: darkcyan;
+    color:blanchedalmond;
+    font-family: Verdana,  sans-serif;
+}
+
+h1, h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: none;
+    text-align: center;
+}
+ul {
+    border: 2px solid blanchedalmond;
+    line-height: 1.6em;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-width: thin;
+    border-radius: 30px;
+
+    width: 600px;
+}
+#day {
+    font-style:italic;
+}
+
+.day {
+    font-style:italic;
+}
+
+
+h3, h4, h5 {
+    font-weight: 500;
+}
+
+#link_down a:link {
+color:blanchedalmond;
+}
+
+#link_down a:visited {
+color: #4AF4FA;
+}
+
+#bottom a:link {
+    color:blanchedalmond;
+}
+
+#bottom a:visited {
+    color:#4AF4FA;
+}
