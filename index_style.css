@@ -14,16 +14,29 @@ h3 {
 }
 
 #year {
+    display: table;
     border: thin solid blanchedalmond;
     border-radius: 40px;
     /*padding-top: 25px;*/
     padding-left: 25px;
     padding-right: 25px;
-    width: 600px;
-
-    margin-left:25px;
+    width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
 }
-
+#row {
+    display:table-row;
+}
+#first_quatter {
+    display:table-cell;
+    vertical-align: bottom;
+}
+#second_quatter {
+    display: table-cell;
+}
+#third_quatter {
+    display: table-cell;
+}
 a:link {
     color:blanchedalmond;
 }
